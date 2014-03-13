@@ -11,7 +11,7 @@ get '/' => sub {
     if ($cpan_id) {
       require Storable;
       my $l = Storable::retrieve('cpan-indexed-old.dat');
-      return $self->render('list', l => $l, cpan_id => $cpan_id);
+      return $self->render('list', l => $l, cpan_id => uc($cpan_id));
     }
   }
   $self->render('index');
