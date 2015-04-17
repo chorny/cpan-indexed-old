@@ -22,7 +22,7 @@ __DATA__
 
 @@ list.html.ep
 % layout 'default';
-% title 'cpan-indexed-old results';
+% title 'cpan-indexed-old results for '.$cpan_id;
 <div>
 author: <a href="http://search.cpan.org/~<%= $cpan_id %>/"><%= $cpan_id %></a>
 </div><br><br>
