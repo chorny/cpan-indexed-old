@@ -96,7 +96,7 @@ CPAN id
 <html>
   <head><title><%= title %></title></head>
   <body>
-<div style="font-size: small">(c) CHORNY (Alexandr Ciornii) 2014. This a tool for CPAN, repository for Perl programming language modules. Fork here <a href="https://github.com/chorny/cpan-indexed-old">https://github.com/chorny/cpan-indexed-old</a>.
+<div style="font-size: small">(c) CHORNY (Alexandr Ciornii) 2014-2015. This a tool for CPAN, repository for Perl programming language modules. Fork here <a href="https://github.com/chorny/cpan-indexed-old">https://github.com/chorny/cpan-indexed-old</a>.
 </div><br><br>
   <%= content %>
   </body>
